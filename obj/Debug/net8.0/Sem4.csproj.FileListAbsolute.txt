@@ -1,0 +1,14 @@
+/home/regenwald666/Desktop/Sem4/bin/Debug/net8.0/Sem4
+/home/regenwald666/Desktop/Sem4/bin/Debug/net8.0/Sem4.deps.json
+/home/regenwald666/Desktop/Sem4/bin/Debug/net8.0/Sem4.runtimeconfig.json
+/home/regenwald666/Desktop/Sem4/bin/Debug/net8.0/Sem4.dll
+/home/regenwald666/Desktop/Sem4/bin/Debug/net8.0/Sem4.pdb
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.GeneratedMSBuildEditorConfig.editorconfig
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.AssemblyInfoInputs.cache
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.AssemblyInfo.cs
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.csproj.CoreCompileInputs.cache
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.dll
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/refint/Sem4.dll
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.pdb
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.genruntimeconfig.cache
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/ref/Sem4.dll
