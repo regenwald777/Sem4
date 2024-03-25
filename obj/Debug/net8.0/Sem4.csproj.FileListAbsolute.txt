@@ -12,3 +12,4 @@
 /home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.pdb
 /home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.genruntimeconfig.cache
 /home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/ref/Sem4.dll
+/home/regenwald666/Desktop/Sem4/obj/Debug/net8.0/Sem4.sourcelink.json
