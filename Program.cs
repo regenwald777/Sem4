@@ -1,4 +1,6 @@
 ﻿
+using System.Globalization;
+
 int [] CreateRandomArray(int min, int max, int size){
     int [] array = new int [size];
     for(int i=0; i<size; i++){
@@ -37,6 +39,28 @@ void ShowArray(int [] array){
 //         return true;
 // }
 
+int CountOfDefs(int [] array){
+    int count = 0;
+    for(int i=0; i<array.Length;i++){
+        if(DefToSeven(array[i])){
+            count++;
+        }
+    }
+    return count;
+}
+
+bool DefToSeven(int num){
+        if(num%10==1 && num%7==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    
+}
+
+
+Console.Clear();
 Console.WriteLine("Введите минимальное число в массиве");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите максимальное число в массиве");
@@ -60,3 +84,5 @@ ShowArray(array);
 //найти количество чисел, которые оканчиваются на 1 и делятся нацело на 7.
 //Пример
 //[1 5 11 21 81 4 0 91 2 3] =>2
+int count = CountOfDefs(array);
+Console.WriteLine($"Кол-во чисел равно - {count}");
