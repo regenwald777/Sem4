@@ -13,27 +13,29 @@ void ShowArray(int [] array){
     }
     Console.WriteLine();
 }
+// функция количестов простых чисел, принимает в семя массив
+// int CountofPrimes(int [] array){
+//     int count = 0; //результат количества подсчета
+//     foreach(int el in array){
+//             if(IsPrime(el)){
+//                 count++;
+//             }
+//     }
+//     return count;
+// }
 
-int CountofPrimes(int [] array){
-    int count = 0;
-    foreach(int el in array){
-            if(IsPrime(el)){
-                count++;
-            }
-    }
-    return count;
-}
 
-bool IsPrime(int num){
-        double limit = Math.Sqrt(num);
-        for(int i = 2; i <= limit;i++){
-            if(num%i==0){
-                return false;
-            }
+// функция определяет является ли число простым
+// bool IsPrime(int num){
+//         double limit = Math.Sqrt(num);
+//         for(int i = 2; i <= limit;i++){
+//             if(num%i==0){
+//                 return false;
+//             }
             
-        }
-        return true;
-}
+//         }
+//         return true;
+// }
 
 Console.WriteLine("Введите минимальное число в массиве");
 int min = Convert.ToInt32(Console.ReadLine());
@@ -42,13 +44,19 @@ int max = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 
-//задать массив заполненный случайными числами и определить количество простых чисел в массиве.
-//Примеры
-//[1 3 4 19 3] =>2
-//[4 3 4 1 9 5 21 13] =>3
 
 
 int [] array = CreateRandomArray(min, max, size);
 ShowArray(array);
-int count = CountofPrimes(array);
-Console.WriteLine($"Количество простых чисел в массиве равно - {count}");
+
+//задать массив заполненный случайными числами и определить количество простых чисел в массиве.
+//Примеры
+//[1 3 4 19 3] =>2
+//[4 3 4 1 9 5 21 13] =>3
+// int count = CountofPrimes(array);
+// Console.WriteLine($"Количество простых чисел в массиве равно - {count}");
+
+//Задайте массив из N случайных чисел (N вводится с клавтатуры).
+//найти количество чисел, которые оканчиваются на 1 и делятся нацело на 7.
+//Пример
+//[1 5 11 21 81 4 0 91 2 3] =>2
